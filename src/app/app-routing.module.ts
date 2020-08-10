@@ -18,7 +18,7 @@ const routes: Routes = [
     path: "bible",
     loadChildren: () =>
       import("./bible/bible.module").then((m) => m.BiblePageModule),
-    canLoad: [AuthGuard],
+    canLoad: [AuthGuard]
   },
   {
     path: "error",
@@ -29,7 +29,7 @@ const routes: Routes = [
     path: "quiz",
     loadChildren: () =>
       import("./quiz/quiz.module").then((m) => m.QuizPageModule),
-    canLoad: [AuthGuard],
+    canLoad: [AuthGuard]
   },
   {
     path: "courses",
