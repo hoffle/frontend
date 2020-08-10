@@ -1,5 +1,5 @@
 {
-  "name": "emmaus-app-ionic",
+  "name": "emmaus-app",
   "integrations": {
     "capacitor": {}
   },

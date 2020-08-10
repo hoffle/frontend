@@ -1,5 +1,5 @@
 {
-  "appId": "de.emmaus-app",
+  "appId": "de.emmaus.app",
   "appName": "emmaus-app",
   "bundledWebRuntime": false,
   "npmClient": "npm",

@@ -35,6 +35,18 @@ const routes: Routes = [
     path: 'overview',
     loadChildren: () => import('./quiz/overview/overview.module').then( m => m.OverviewPageModule)
   },
+  {
+    path: 'questions',
+    loadChildren: () => import('./quiz/questions/questions.module').then( m => m.QuestionsPageModule)
+  },
+  {
+    path: 'courses',
+    loadChildren: () => import('./quiz/courses/courses.module').then( m => m.CoursesPageModule)
+  },
+  {
+    path: 'finsh',
+    loadChildren: () => import('./quiz/finsh/finsh.module').then( m => m.FinshPageModule)
+  },
 ];
 
 @NgModule({
