@@ -1,0 +1,8 @@
+{
+  "name": "emmaus-app-ionic",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular",
+  "id": "937a14b2"
+}
