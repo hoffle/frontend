@@ -1,5 +1,6 @@
-node_modules
-ios
-www
-android
-platforms
+/node_modules
+/ios
+/www
+/android
+/platforms
+/.vscode
