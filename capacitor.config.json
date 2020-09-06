@@ -1,6 +1,6 @@
 {
   "appId": "de.emmaus.app",
-  "appName": "emmaus-app",
+  "appName": "Emmaus-App",
   "bundledWebRuntime": false,
   "npmClient": "npm",
   "webDir": "www",
