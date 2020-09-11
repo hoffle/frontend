@@ -26,32 +26,27 @@ const routes: Routes = [
       import("./error/error.module").then((m) => m.ErrorPageModule),
   },
   {
-    path: "quiz",
-    loadChildren: () =>
-      import("./quiz/quiz.module").then((m) => m.QuizPageModule),
-    canLoad: [AuthGuard]
-  },
-  {
     path: "courses",
     loadChildren: () =>
-      import("./quiz/courses/courses.module").then((m) => m.CoursesPageModule),
+      import("./courses/courses.module").then((m) => m.CoursesPageModule),
+    canLoad: [AuthGuard]
   },
   {
     path: "finish",
     loadChildren: () =>
-      import("./quiz/finish/finish.module").then((m) => m.FinishPageModule),
+      import("./courses/finish/finish.module").then((m) => m.FinishPageModule),
   },
   {
     path: "overview",
     loadChildren: () =>
-      import("./quiz/overview/overview.module").then(
+      import("./courses/overview/overview.module").then(
         (m) => m.OverviewPageModule
       ),
   },
   {
     path: "questions",
     loadChildren: () =>
-      import("./quiz/questions/questions.module").then(
+      import("./courses/questions/questions.module").then(
         (m) => m.QuestionsPageModule
       ),
   },
